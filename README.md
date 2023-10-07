@@ -2,7 +2,7 @@
 This repository serves as a practice project for learning and practicing various Git commands.
 
 ## Overview of Commands Executed
-Here's an overview of the Git commands that were executed by kingsleyatuba in this project:
+Here's an overview of the Git commands that were executed in this project:
 * Initializing a Git repository:                        `git init`
 * Adding files to the staging area:                     `git add .`
 * Committing changes with a message:                    `git commit -m "first commit"`
