@@ -14,7 +14,7 @@ GitHub, on the other hand, is a web-based platform that utilizes Git for version
 ![git init](./img/1.png)
 
 ## Making your first Commit
-Making your first commit in Git is a crucial step in tracking and recording changes in your project. After initializing a Git repository and making changes to your code, you can use the git add command to stage the changes you want to include in the commit. For example, git add . stages all changes in the current directory. Once the changes are staged, you can commit them using the git commit command, along with a descriptive message using the -m flag, such as git commit -m "Initial commit". This message should briefly summarize the changes or the purpose of the commit, providing a clear record of your project's history.
+Making your first commit in Git is a crucial step in tracking and recording changes in your project. After initializing a Git repository and making changes to your code, you can use the git add command to stage the changes you want to include in the commit. For example, `git add .` stages all changes in the current directory. Once the changes are staged, you can commit them using the git commit command, along with a descriptive message using the -m flag, such as `git commit -m "Initial commit"`. This message should briefly summarize the changes or the purpose of the commit, providing a clear record of your project's history.
 
 > To make your first commit:
 * Adding files to the staging area by running: `git add .`
@@ -22,6 +22,8 @@ Making your first commit in Git is a crucial step in tracking and recording chan
 ![git commit](./img/2.png)
 
 ## Working with branches
+Working with branches in Git allows you to work on different features or aspects of your project independently. You can create a new branch using the `git checkout -b branch-name` command, where branch-name is the name of the new branch. This branch will be based on the current state of your project. To switch between branches, use `git checkout branch-name`. You can develop new features or make changes in separate branches without affecting the main branch (often called "master" or "main"). Once you are satisfied with your changes, you can merge or integrate them into the main branch, ensuring a controlled and organized development workflow.
+
 * Adding a remote repository named "origin":            `git remote add origin https://github.com/atubak400/Git-Project.git`
 * Renaming the default branch from "master" to "main":  `git branch -M main`
 * Pushing the changes to the remote repository and setting up tracking: `git push -u origin main`
