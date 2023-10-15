@@ -53,13 +53,14 @@ Pushing changes with `git push -u origin main` not only syncs local and remote r
 ![git commit](./img/8.png)
 
 ## Introduction to Markdown Syntax and Tagging
-Markdown Syntax and Tagging provides a fundamental understanding of a lightweight markup language used for formatting text in a simple and readable manner. Markdown is versatile and widely adopted in documentation, including software development, and social media platforms. It allows users to create rich text formatting through the use of tags and syntax, making it an excellent choice for writers and developers alike. In this introduction, you'll learn how to use Markdown to enhance your text with headings, lists, links, and other formatting elements, making your content more visually appealing and structured.
+Markdown Syntax and Tagging provides a fundamental understanding of a lightweight markup language used for formatting text in a simple and readable manner. Markdown is versatile and widely adopted in documentation, including software development, and social media platforms. It allows users to create rich text formatting through the use of tags and syntax, making it an excellent choice for writers and developers alike. In this introduction, you'll learn how to use Markdown to enhance your text with headings, lists, links, and other formatting elements, making your content more visually appealing and structured. For example:
+
+![git commit](./img/9.png)
 
 # Heading 1
 ## Heading 2
 ### Heading 3
 
-<!-- Comments: These are different levels of headings in Markdown. Use '#' for headings, and the number of '#' symbols determines the heading level. -->
 
 - Unordered List Item 1
 - Unordered List Item 2
@@ -67,7 +68,6 @@ Markdown Syntax and Tagging provides a fundamental understanding of a lightweigh
 1. Ordered List Item 1
 2. Ordered List Item 2
 
-<!-- Comments: Lists can be either unordered (bulleted) or ordered (numbered). Use '-' for unordered lists and numbers for ordered lists. -->
 
 *Italic Text*
 _Italic Text_
@@ -75,15 +75,11 @@ _Italic Text_
 **Bold Text**
 __Bold Text__
 
-<!-- Comments: Use '*' or '_' to create italic text, and '**' or '__' to create bold text. -->
+![git commit](./img/10.png)
 
 [Link Text](https://www.example.com)
 
-<!-- Comments: Create hyperlinks by enclosing the link text in square brackets '[]' and the URL in parentheses '()'. -->
-
 ![Alt Text](img/0.jpeg)
-
-<!-- Comments: Insert images using an exclamation mark '!', alt text in square brackets, and the image path or URL in parentheses. -->
 
 `Inline Code`
 
@@ -94,7 +90,6 @@ def multiline_code():
 def add_numbers(a, b):
     return a + b
 ```
-![Alt Text](img/15.png)
 
 <!-- Comments: Use backticks for inline code and triple backticks to create code blocks. -->
 
