@@ -94,6 +94,7 @@ def multiline_code():
 def add_numbers(a, b):
     return a + b
 ```
+![Alt Text](img/15.png)
 
 <!-- Comments: Use backticks for inline code and triple backticks to create code blocks. -->
 
