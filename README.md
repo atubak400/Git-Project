@@ -9,8 +9,10 @@ GitHub, on the other hand, is a web-based platform that utilizes Git for version
 > To initialize a Git repository for a project, follow these steps:
 * Open a Terminal: Open your command line terminal on your computer.
 * Navigate to Your Project's Directory: Use the cd command to navigate to the directory where your project is located. For example: `cd /path/to/your/project`
+
 ![cd /path/to/your/project](./img/0.png)
 * Initialize a Git Repository: Use the git init command to create a new Git repository in the current directory: `git init`
+
 ![git init](./img/1.png)
 
 ## Making your first Commit
@@ -19,6 +21,7 @@ Making your first commit in Git is a crucial step in tracking and recording chan
 > To make your first commit:
 * Adding files to the staging area by running: `git add .`
 * Committing changes with a message by running: `git commit -m "first commit"`
+
 ![git commit](./img/2.png)
 
 ## Working with branches
@@ -27,14 +30,19 @@ Working with branches in Git allows you to work on different features or aspects
 You can develop new features or make changes in separate branches without affecting the main branch (often called "master" or "main"). Once you are satisfied with your changes, you can merge or integrate them into the main branch, ensuring a controlled and organized development workflow.
 
 * Create a new branch: `git checkout -b test-branch`
+
 ![git commit](./img/3.png)
 * List your Git branches: `git branch`
+
 ![git commit](./img/4.png)
 * Switch back to main: `git checkout main`
+
 ![git commit](./img/5.png)
 * Merge your branch into main: `git merge test-branch`
+
 ![git commit](./img/6.png)
 * Delete your branch after merging it: `git branch -d test-branch`
+
 ![git commit](./img/7.png)
 
 ## Collaboration and Remote Repositories
@@ -73,7 +81,7 @@ __Bold Text__
 
 <!-- Comments: Create hyperlinks by enclosing the link text in square brackets '[]' and the URL in parentheses '()'. -->
 
-![Alt Text](img/0.png.jpg)
+![Alt Text](img/0.png)
 
 <!-- Comments: Insert images using an exclamation mark '!', alt text in square brackets, and the image path or URL in parentheses. -->
 
