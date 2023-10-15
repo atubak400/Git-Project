@@ -81,7 +81,7 @@ __Bold Text__
 
 <!-- Comments: Create hyperlinks by enclosing the link text in square brackets '[]' and the URL in parentheses '()'. -->
 
-![Alt Text](img/0.png)
+![Alt Text](img/0.jpeg)
 
 <!-- Comments: Insert images using an exclamation mark '!', alt text in square brackets, and the image path or URL in parentheses. -->
 
