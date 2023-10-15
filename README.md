@@ -102,7 +102,7 @@ def add_numbers(a, b):
 
 > ## c. This markdown code:
 
-![git commit](./img/11.png)
+![git commit](./img/12.png)
 
 > ## will render:
 
