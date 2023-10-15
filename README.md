@@ -55,10 +55,10 @@ Pushing changes with `git push -u origin main` not only syncs local and remote r
 ## Introduction to Markdown Syntax and Tagging
 Markdown Syntax and Tagging provides a fundamental understanding of a lightweight markup language used for formatting text in a simple and readable manner. Markdown is versatile and widely adopted in documentation, including software development, and social media platforms. It allows users to create rich text formatting through the use of tags and syntax, making it an excellent choice for writers and developers alike. In this introduction, you'll learn how to use Markdown to enhance your text with headings, lists, links, and other formatting elements, making your content more visually appealing and structured. For example:
 
-This code:
+> This code:
 ![git commit](./img/9.png)
 
-will render:
+> will render:
 
 # Heading 1
 ## Heading 2
