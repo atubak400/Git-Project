@@ -128,8 +128,6 @@ Horizontal Rule:
    2. Subitem B
 2. Numbered item 2
 
-[Link to Google][Google]
-[Google]: http://www.google.com
 
 
 
