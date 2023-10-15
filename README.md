@@ -100,23 +100,21 @@ def add_numbers(a, b):
     return a + b
 ```
 
-<!-- Comments: Use backticks for inline code and triple backticks to create code blocks. -->
+> ## c. This markdown code:
+
+
+
+> ## will render:
 
 > Blockquote
 >> Nested Blockquote
 
-<!-- Comments: Create blockquotes using the '>' symbol, and you can nest blockquotes for deeper levels of quoting. -->
-
 Horizontal Rule:
 ---
-
-<!-- Comments: Use '---' or '___' to create a horizontal rule. -->
 
 | Header 1 | Header 2 |
 | -------- | -------- |
 | Content 1 | Content 2 |
-
-<!-- Comments: Create tables using '|' to separate columns and '-' for the header separator. -->
 
 * Bullet point 1
     - Subpoint A
@@ -130,7 +128,7 @@ Horizontal Rule:
    2. Subitem B
 2. Numbered item 2
 
-<!-- Comments: You can also nest numbered items for subitems. -->
+
 
 [Link to Google][Google]
 [Google]: http://www.google.com
