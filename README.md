@@ -22,13 +22,25 @@ Making your first commit in Git is a crucial step in tracking and recording chan
 ![git commit](./img/2.png)
 
 ## Working with branches
-Working with branches in Git allows you to work on different features or aspects of your project independently. You can create a new branch using the `git checkout -b branch-name` command, where branch-name is the name of the new branch. This branch will be based on the current state of your project. To switch between branches, use `git checkout branch-name`. You can develop new features or make changes in separate branches without affecting the main branch (often called "master" or "main"). Once you are satisfied with your changes, you can merge or integrate them into the main branch, ensuring a controlled and organized development workflow.
+Working with branches in Git allows you to work on different features or aspects of your project independently. You can create a new branch using the `git checkout -b branch-name` command, where branch-name is the name of the new branch. This branch will be based on the current state of your project. To switch between branches, use `git checkout branch-name`. 
 
-* Adding a remote repository named "origin":            `git remote add origin https://github.com/atubak400/Git-Project.git`
+You can develop new features or make changes in separate branches without affecting the main branch (often called "master" or "main"). Once you are satisfied with your changes, you can merge or integrate them into the main branch, ensuring a controlled and organized development workflow.
+
+* Create a new branch: `git checkout -b test-branch`
+![git commit](./img/3.png)
+* List your Git branches: `git branch`
+![git commit](./img/4.png)
+* Switch back to main: `git checkout main`
+![git commit](./img/5.png)
+* Merge your branch into main: `git merge test-branch`
+![git commit](./img/6.png)
+* Delete your branch after merging it: `git branch -d test-branch`
+![git commit](./img/7.png)
+* Adding a remote repository named "origin":`git remote add origin https://github.com/atubak400/Git-Project.git`
 * Renaming the default branch from "master" to "main":  `git branch -M main`
 * Pushing the changes to the remote repository and setting up tracking: `git push -u origin main`
-* Checking the available branches: `git branch`
 * Cloning the remote repository to a new directory: `git clone https://github.com/atubak400/Git-Project.git`
+![git commit](./img/8.png)
 
 
 
