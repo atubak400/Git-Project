@@ -87,6 +87,13 @@ __Bold Text__
 
 `Inline Code`
 
+```python
+def multiline_code():
+    print("Hello, World!")
+
+def add_numbers(a, b):
+    return a + b
+```
 
 <!-- Comments: Use backticks for inline code and triple backticks to create code blocks. -->
 
