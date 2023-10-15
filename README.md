@@ -104,7 +104,6 @@ def add_numbers(a, b):
 
 ![git commit](./img/11.png)
 
-
 > ## will render:
 
 > Blockquote
